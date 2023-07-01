@@ -19,13 +19,13 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
-        }).format(inputCurrencyValue / euroToday)
+        }).format(inputCurrencyValue/euroToday)
     }
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
         style: "currency",
         currency: "BRL"
     }).format(inputCurrencyValue)
+}
 
-
-    convertButton.addEventListener("click", convertValues)}
+    convertButton.addEventListener("click", convertValues)
