@@ -86,12 +86,13 @@ section {
   align-items: center;
   gap: 4px;
 }
-.currency{
+.currency {
   color: #555555;
   font-size: 15;
 }
 
-.currency-value{
+.currency-value,
+.currency-value-to-convert {
   color: #555555;
   font-weight: 700;
   font-size: 20px;
